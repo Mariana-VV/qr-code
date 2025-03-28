@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  margin: 0 auto;
+    height: 499px;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-img {
+    height: 288px;
+    width: 288px;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-weight: 700;
+color: hsl(218, 44%, 22%);
+}
+
+.card-text{
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
+
+
+
