@@ -1,47 +1,52 @@
+:root {
+  --slate900: #1f314f;
+  --slate500: #68778d;
+  --slate300: #d5e1ef;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    background-color: hsl(212, 45%, 89%);
-
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  margin: 0;
+  background-color: var(--slate300);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    height: 499px;
-    width: 320px;
-    padding: 16px 16px 40px 16px;
-    border-radius: 20px;
-    background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .card-img {
-    height: 288px;
-    width: 288px;
-    border-radius: 20px;
+  height: 288px;
+  width: 288px;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding-inline: 1rem;
 }
 
 .card-title {
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  color: var(--slate900);
+  line-height: 1.2;
+  font-size: 1.375rem;
 }
 
 .card-text {
-    font-size: 15px;
-    color: hsl(216, 15%, 48%);
-    width: 256px;
-    height: 63px;
-    text-align: center;
+  font-size: 0.9375rem;
+  color: var(--slate500);
+  text-align: center;
+  line-height: 1.5;
 }
-
-
-
